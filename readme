@@ -1,0 +1,35 @@
+Enigma Machine:
+
+The Enigma machines were a series of electro-mechanical rotor cipher machines developed and used in the early- to mid-20th century to protect
+commercial, diplomatic and military communication (Wikipedia). This project constructs a virtual representation of the Enigma machine used for the encryption
+and decryption of secret messages. In constructing the machine, key physical components of the machine (Rotors,
+Reflectors, Plugs and Plugboard) are simulated in order to encode and decode text messages.
+
+Parts attempted and completed:
+
+1) Part 1 - Modelling the Plugboard
+2) Part 2 - Modelling the Rotors
+3) Part 3 - Modelling the Reflector
+4) Part 4 - Modelling Basic Rotors
+5) Part 5 - Modelling the Enigma Machine
+6) Part 6 - Reading and Writing Files
+7) Part 7 - Modelling Turnover Rotors
+8) Part 8 - Building a Bombe
+
+The anwer of the three challenges for part 8 are:
+   * challenge 1: DAISYDAISYGIVEMEYOURANSWERDO (missing letters in the plugs: T, A)
+   * challenge 2: WELLALWAYSBETOGETHERHOWEVERFARITSEEMSWELLALWAYSBETOGETHERTOGETHERINELECTRICDREAMS (rotors are in positions: 3, 9 and  15)
+   * challenge 3: ILOVECOFFEEILOVETEAILOVETHEJAVAJIVEANDITLOVESME (the rotor types are V, III and II)
+
+
+
+Extensions: 
+
+This project allows the user to choose the settings of the machine by calling the getUserSpecs method defined in the class named User.
+The user can choose the number of plugs the machine will contain, the letters contained in the plugs, as well as the types and position of the rotors and reflectors.
+Also, the user can input the letter they want to encode and the encoded version of it will be displayed at the same time.
+
+How to run:
+
+Due to the large output some of the methods display, all methods that make the machine work are commented in the Main class which contains the main method.
+To run the code, please uncomment the method you want to run, save/compile and run.
